@@ -21,7 +21,7 @@ Dependencies:
 
 Pull the code and compile it
 ```bash
-git placeholder
+git https://github.com/ErasmusMC-Bioinformatics/ASH-Ki67.git
 c++ -Wall Split.cpp -I/usr/local/include/opencv/ -lopencv_core -lopencv_highgui -o split.out
 c++ -Wall Overlap.cpp -I/usr/local/include/opencv/ -lopencv_core -lopencv_highgui -o overlap.out
 c++ -Wall Annotate.cpp -I/usr/local/include/opencv/ -lopencv_core -lopencv_highgui -o annotate.out
