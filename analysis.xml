@@ -1,0 +1,15 @@
+<tool id="image_processing" name="Analysis of large images?" >
+	<description>Analysing large images with opencv</description>
+	<command interpreter="bash">
+		run.sh $input $out_file1 $out_file1.files_path
+	</command>
+	<inputs>
+		<param format="tiff" name="input" type="data" label="in"/>
+	</inputs>
+	<outputs>
+		<data format="html" name="out_file1" />
+	</outputs>
+	<help>
+		There is no help
+	</help>
+</tool>
